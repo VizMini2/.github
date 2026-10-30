@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation and troubleshooting
+    url: https://vizmini2.github.io/help/troubleshooting.html
+    about: Connection, QoS and mesh problems are usually solved here.
+  - name: Report a security vulnerability
+    url: https://github.com/VizMini2/.github/blob/main/SECURITY.md
+    about: Please do not open public issues for security problems.
+  - name: Contact by email
+    url: https://vizmini2.github.io/help/contact.html
+    about: For anything that should not be public (account, privacy, data deletion).

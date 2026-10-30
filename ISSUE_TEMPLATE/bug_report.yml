@@ -1,0 +1,96 @@
+name: Bug report
+description: Something in VizMini2 does not work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this! Before you start, please check
+        [Troubleshooting](https://vizmini2.github.io/help/troubleshooting.html) and
+        [Known limitations](https://vizmini2.github.io/help/limitations.html): many
+        connection problems (multicast, domain ID, QoS) are covered there.
+
+        **Do not post passwords, tokens, public IPs or anything private.** Security
+        problems go through the [security policy](https://github.com/VizMini2/.github/blob/main/SECURITY.md), not here.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what you got instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the RViz tab
+        2. Add a PointCloud2 display on /points
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: VizMini2 version
+      description: Android Settings → Apps → VizMini2 shows it at the bottom.
+      placeholder: "0.18.0"
+    validations:
+      required: true
+
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Android version
+      placeholder: "Pixel 8, Android 16"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Connection / discovery
+        - RViz / 3D view
+        - Camera
+        - Teleop / gamepad
+        - Buttons (topics, services, actions)
+        - Nodes, parameters, lifecycle
+        - Topics / echo / plots
+        - Bags (record / play)
+        - Account, sign-in, profiles
+        - Demo
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: ros
+    attributes:
+      label: ROS 2 distribution and middleware on the robot
+      description: Only if the problem involves a robot.
+      placeholder: "Jazzy, rmw_fastrtps_cpp"
+
+  - type: dropdown
+    id: network
+    attributes:
+      label: How does the phone reach the robot?
+      options:
+        - Same Wi-Fi, multicast discovery
+        - Same Wi-Fi, Discovery peers
+        - Discovery Server
+        - VPN
+        - Demo only (no robot)
+        - Not sure
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, videos or logs
+      description: |
+        Drag files here. The output of **Network check** (Config → Network) is very
+        useful for connection problems.

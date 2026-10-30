@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an idea or an improvement for VizMini2.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the task or the problem with your robot, not only the solution.
+      placeholder: "When I drive my robot with Nav2 I would like to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: How do you imagine it?
+      description: Which tab or screen, what it would show, how you would use it.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you use today instead?
+      description: Another tool, a workaround on the robot, etc.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Sketches, screenshots, message types involved, links.
