@@ -22,7 +22,7 @@ from one code base: both apps have the same tabs and settings, and your tabs, pr
 move freely between them. It talks to your robots directly over your network (DDS), with no bridge
 or server on the robot; Zenoh and foxglove_bridge work too.
 
-- **See**: 3D view with 33 RViz display types, cameras and H.264/H.265 video, the TF tree, the node
+- **See**: 3D view with 34 display types (RViz's, and NavMap's multi-floor maps), cameras and H.264/H.265 video, the TF tree, the node
   graph, GPS maps and your own dashboards.
 - **Drive**: on-screen joysticks, a gamepad or the keyboard, with safety stops; Nav2 goals and
   waypoints from the map.
