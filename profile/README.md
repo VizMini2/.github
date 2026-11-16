@@ -10,14 +10,15 @@
   <a href="https://vizmini2.github.io/getting-started/install.html">Install</a> ·
   <a href="https://vizmini2.github.io/getting-started/demo.html">Try the demo</a> ·
   <a href="https://vizmini2.github.io/changelog.html">Changelog</a> ·
+  <a href="https://github.com/VizMini2/VizMini2">Source code</a> ·
   <a href="https://github.com/sponsors/Juancams">Sponsor</a>
 </p>
 
 ---
 
-VizMini2 is an Android app to **see, drive and inspect ROS 2 robots from your phone**.
-It talks to your robots directly over your network (DDS), with no bridge or server on
-the robot.
+VizMini2 is an app to **see, drive and inspect ROS 2 robots from your phone or your
+computer** (Android and Linux, from one code base). It talks to your robots directly
+over your network (DDS, or Zenoh), with no bridge or server on the robot.
 
 - **See**: 3D view with 18 RViz displays, cameras, the TF tree, the node graph and your own dashboards.
 - **Drive**: on-screen joysticks or a gamepad, with safety stops.
@@ -34,6 +35,7 @@ and no robot needed.
 | | |
 |---|---|
 | Phone | Android 8.0 (API 26) or newer, OpenGL ES 3 |
+| Computer | Linux x86_64, Ubuntu 20.04 or newer (`.deb`, `.tar.gz` or `ros2 run vizmini2 vizmini2`) |
 | Robot | ROS 2 (tested with Jazzy; Humble and newer should work). Fast DDS (`rmw_fastrtps_cpp`) for services, actions, parameters and lifecycle |
 | Network | Same Wi-Fi as the robot, or a VPN / Discovery Server |
 
@@ -41,7 +43,7 @@ and no robot needed.
 
 - Something not working? Start with [Troubleshooting](https://vizmini2.github.io/help/troubleshooting.html)
   and [Known limitations](https://vizmini2.github.io/help/limitations.html).
-- Found a bug or have an idea? [Open an issue](https://github.com/VizMini2/VizMini2.github.io/issues/new/choose)
+- Found a bug or have an idea? [Open an issue](https://github.com/VizMini2/VizMini2/issues/new/choose)
   or see [Contact and support](https://vizmini2.github.io/help/contact.html).
 
 VizMini2 is free and built in spare time. If it helps you with your robots, you can

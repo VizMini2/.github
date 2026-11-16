@@ -1,11 +1,17 @@
+# Default for the organization's repositories without their own ISSUE_TEMPLATE folder (the website, this one). The
+# website is built from VizMini2/docs, so every bug, idea and manual fix goes to the VizMini2 repository, which has its
+# own forms.
 blank_issues_enabled: false
 contact_links:
-  - name: Documentation and troubleshooting
+  - name: 🐞 Bug report, ✨ idea or 📖 manual fix
+    url: https://github.com/VizMini2/VizMini2/issues/new/choose
+    about: Issues for the app, the desktop app and the website are all in the VizMini2 repository.
+  - name: 📚 Documentation and troubleshooting
     url: https://vizmini2.github.io/help/troubleshooting.html
-    about: Connection, QoS and mesh problems are usually solved here.
-  - name: Report a security vulnerability
+    about: Connection, QoS and discovery problems are usually solved here.
+  - name: 🔒 Report a security vulnerability
     url: https://github.com/VizMini2/.github/blob/main/SECURITY.md
     about: Please do not open public issues for security problems.
-  - name: Contact by email
+  - name: ✉️ Contact
     url: https://vizmini2.github.io/help/contact.html
     about: For anything that should not be public (account, privacy, data deletion).

@@ -1,22 +1,13 @@
 # Contributing to VizMini2
 
-Thanks for your interest! The app's source code is not public yet, but you can
-already help a lot:
+Thanks for your interest! Bug reports, ideas and pull requests are welcome.
 
-- **Report bugs** with clear steps to reproduce (use the issue templates).
-- **Suggest features** from your real use with robots.
-- **Improve the documentation**: fix typos, unclear steps or outdated screenshots,
-  in English or Spanish.
-
-## Pull requests
-
-- Keep each pull request focused on one change.
-- Describe what changes and why; add a screenshot for visual changes.
-- Sign off your commits (`git commit -s`), certifying the
-  [Developer Certificate of Origin](https://developercert.org/): you wrote the change
-  or have the right to submit it under the repository's license.
-- By contributing, you agree that your contribution is licensed under the license of
-  the repository you contribute to (Apache 2.0 for the documentation website).
+- **The app, the desktop app and the user manual** live in
+  [VizMini2/VizMini2](https://github.com/VizMini2/VizMini2): read its
+  [CONTRIBUTING.md](https://github.com/VizMini2/VizMini2/blob/main/CONTRIBUTING.md) and
+  [CLA.md](https://github.com/VizMini2/VizMini2/blob/main/CLA.md) before sending a pull request.
+- **The website** (vizmini2.github.io) is generated from that manual (`docs/`): send changes to its pages there.
+- **Bugs and ideas**: [open an issue](https://github.com/VizMini2/VizMini2/issues/new/choose) with the forms.
 
 ## Be kind
 
