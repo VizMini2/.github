@@ -10,8 +10,8 @@ contact_links:
     url: https://vizmini2.github.io/help/troubleshooting.html
     about: Connection, QoS and discovery problems are usually solved here.
   - name: 🔒 Report a security vulnerability
-    url: https://github.com/VizMini2/.github/blob/main/SECURITY.md
-    about: Please do not open public issues for security problems.
+    url: https://github.com/VizMini2/VizMini2/security/advisories/new
+    about: Privately, to the maintainer only. Please do not open public issues for security problems.
   - name: ✉️ Contact
     url: https://vizmini2.github.io/help/contact.html
     about: For anything that should not be public (account, privacy, data deletion).
