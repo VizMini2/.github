@@ -6,9 +6,13 @@
 <p align="center"><b>ROS 2 in your pocket, and on your desk.</b></p>
 
 <p align="center">
-  <a href="https://vizmini2.github.io/">Documentation</a> ·
-  <a href="https://vizmini2.github.io/getting-started/install.html">Install on Android</a> ·
-  <a href="https://vizmini2.github.io/getting-started/desktop.html">The PC app</a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.juancams.vizmini2"><img src="https://img.shields.io/badge/Google_Play-Android-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Get it on Google Play"></a>
+  <a href="https://vizmini2.github.io/getting-started/desktop.html"><img src="https://img.shields.io/badge/Linux-Ubuntu_.deb-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Linux"></a>
+  <a href="https://github.com/VizMini2/VizMini2/releases/latest"><img src="https://img.shields.io/badge/Windows-.msi-0078D6?style=for-the-badge" alt="Windows"></a>
+  <a href="https://vizmini2.github.io/"><img src="https://img.shields.io/badge/Docs-vizmini2.github.io-5C6BC0?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation"></a>
+</p>
+
+<p align="center">
   <a href="https://vizmini2.github.io/getting-started/demo.html">Try the demo</a> ·
   <a href="https://vizmini2.github.io/changelog.html">Changelog</a> ·
   <a href="https://github.com/VizMini2/VizMini2">Source code</a> ·
