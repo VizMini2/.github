@@ -7,13 +7,14 @@
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.juancams.vizmini2"><img src="https://img.shields.io/badge/Google_Play-Android-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Get it on Google Play"></a>
-  <a href="https://vizmini2.github.io/getting-started/desktop.html"><img src="https://img.shields.io/badge/Linux-Ubuntu_.deb-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Linux"></a>
-  <a href="https://github.com/VizMini2/VizMini2/releases/latest"><img src="https://img.shields.io/badge/Windows-.msi-0078D6?style=for-the-badge" alt="Windows"></a>
+  <a href="https://github.com/VizMini2/VizMini2/releases/latest/download/vizmini2-linux-amd64.deb"><img src="https://img.shields.io/badge/Linux-Ubuntu_.deb-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Download the .deb for Ubuntu"></a>
+  <a href="https://github.com/VizMini2/VizMini2/releases/latest/download/vizmini2-windows-x86_64.msi"><img src="https://img.shields.io/badge/Windows-.msi-0078D6?style=for-the-badge" alt="Download the .msi for Windows"></a>
   <a href="https://vizmini2.github.io/"><img src="https://img.shields.io/badge/Docs-vizmini2.github.io-5C6BC0?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation"></a>
 </p>
 
 <p align="center">
   <a href="https://vizmini2.github.io/getting-started/demo.html">Try the demo</a> ·
+  <a href="https://vizmini2.github.io/getting-started/desktop.html">Install with apt</a> ·
   <a href="https://vizmini2.github.io/changelog.html">Changelog</a> ·
   <a href="https://github.com/VizMini2/VizMini2">Source code</a> ·
   <a href="https://github.com/sponsors/Juancams">Sponsor</a>
@@ -49,7 +50,7 @@ with everything working and no robot needed.
 | | |
 |---|---|
 | Phone | Android 8.0 (API 26) or newer, OpenGL ES 3 |
-| PC | x86-64 with an OpenGL driver: Ubuntu 20.04 or newer (the `.deb`, or `ros2 run vizmini2 vizmini2`) or Windows 10 or 11 (the `.msi`, for your user, no administrator needed); no ROS 2 needed on the PC |
+| PC | x86-64 with an OpenGL driver: Ubuntu 20.04 or newer (with apt, the `.deb`, or `ros2 run vizmini2 vizmini2`) or Windows 10 or 11 (the `.msi`, for your user, no administrator needed); no ROS 2 needed on the PC |
 | Robot | ROS 2 Foxy, Humble, Jazzy, Kilted or Lyrical |
 | Middleware | Fast DDS or Cyclone DDS (everything: topics, services, actions, parameters, lifecycle), Zenoh through the robot's router, or any other through foxglove_bridge |
 | Network | The robot's network, or a VPN / Discovery Server; with Zenoh or foxglove_bridge, any network that reaches the robot's port |
